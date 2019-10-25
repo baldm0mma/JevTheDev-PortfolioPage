@@ -1,10 +1,11 @@
 import React from 'react';
+import { NameBadge } from './NameBadge';
 import './App.css';
 
 export const App = () => {
   return (
     <section>
-      <h1>This is my portfolio</h1>
+      <NameBadge />
     </section>
   );
 };
