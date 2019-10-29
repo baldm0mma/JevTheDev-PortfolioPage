@@ -16,3 +16,12 @@ main {
   align-items: center;
   text-align: center;
 }
+
+.down-arrow {
+  width: 20px;
+  margin-bottom: 200px;
+}
+
+.portfolio-title {
+  margin-bottom: 5px;
+}
