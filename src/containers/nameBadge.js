@@ -1,14 +1,14 @@
 import React from 'react';
 import './NameBadge.css';
-import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 export const NameBadge = () => {
   return (
-    <Fade>
+    <Zoom>
       <article className='nameBadge-container'>
         <h2>Welcome to _jevTheDev</h2>
         <p>Hi, I'm Jev; This is my portfolio.</p>
       </article>
-    </Fade>
+    </Zoom>
   );
 };
