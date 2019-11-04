@@ -11,7 +11,7 @@ export const App = () => {
     <main>
       <NameBadge />
       <Zoom>
-        <h4 className='portfolio-title'>Portfolio</h4>
+        <h4 className='about-title'>About</h4>
         <img className='down-arrow' src='./assets/downArrow.png' />
       </Zoom>
       <Fade left>
