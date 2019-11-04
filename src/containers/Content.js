@@ -2,11 +2,11 @@ import React from 'react';
 
 export const Content = ({ content }) => {
   return (
-    <section>
-      <article>
-        <h3>{content.title}</h3>
-        <p>{content.description}</p>
-        <aside>
+    <section className='content-container'>
+      <article className='description-container'>
+        <h3 className='title'>{content.title}</h3>
+        <p className='description'>{content.description}</p>
+        <aside className='icon-container'>
           {content.gitHub && (
             <a href={content.gitHub}>
               <img src='../assets/gitHub.png' />
@@ -24,8 +24,8 @@ export const Content = ({ content }) => {
           )}
         </aside>
       </article>
-      <article>
-        <img src={content.image} />
+      <article className='image-container'>
+        <img className='project-sample-image' src={content.image} />
       </article>
     </section>
   );
