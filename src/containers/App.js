@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { About } from './About';
 import { Content } from './Content';
-import { NameBadge } from './NameBadge';
+// import { NameBadge } from './NameBadge';
 import { projectContent, aboutContent } from '../projectContent/projectContent';
 import { wakeHerokuApps } from '../fetchCalls';
 import Fade from 'react-reveal/Fade';
