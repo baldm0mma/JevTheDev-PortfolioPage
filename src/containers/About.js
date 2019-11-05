@@ -23,7 +23,7 @@ export const About = () => {
 
   return (
     <section className='about-container'>
-      <img className='profile-photo' src={image} />
+      <img className='profile-photo' src={image} alt='Profile Photo' />
       <h2>{name}</h2>
       <h4>{title}</h4>
       <p>{description}</p>
@@ -32,17 +32,41 @@ export const About = () => {
         {createSkillList()}
       </article>
       <article className='about-icon-container'>
-        <a className='about-link' href={resume} target='_blank'>
-          <img className='icon' src='../assets/cv.png' />
+        <a
+          className='about-link'
+          href={resume}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img className='icon' src='../assets/cv.png' alt='Resume Icon' />
         </a>
-        <a className='about-link' href={gitHub} target='_blank'>
-          <img className='icon' src='../assets/gitHub.png' />
+        <a
+          className='about-link'
+          href={gitHub}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img className='icon' src='../assets/gitHub.png' alt='GitHub Icon' />
         </a>
-        <a className='about-link' href={linkedIn} target='_blank'>
-          <img className='icon' src='../assets/linkedIn.png' />
+        <a
+          className='about-link'
+          href={linkedIn}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img
+            className='icon'
+            src='../assets/linkedIn.png'
+            alt='linkedIn Icon'
+          />
         </a>
-        <a className='about-link' href={email} target='_blank'>
-          <img className='icon' src='../assets/email.png' />
+        <a
+          className='about-link'
+          href={email}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img className='icon' src='../assets/email.png' alt='Email Icon' />
         </a>
       </article>
     </section>
