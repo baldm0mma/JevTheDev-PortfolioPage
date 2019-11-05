@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import './App.css';
 import { About } from './About.js';
 import { Content } from './Content.js';
@@ -5,7 +6,6 @@ import { NameBadge } from './NameBadge.js';
 import { projectContent, aboutContent } from '../projectContent/projectContent';
 import { wakeHerokuApps } from '../fetchCalls.js';
 import Fade from 'react-reveal/Fade';
-import React, { useEffect } from 'react';
 import Zoom from 'react-reveal/Zoom';
 
 export const App = () => {
