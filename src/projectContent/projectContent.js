@@ -21,7 +21,7 @@ export const projectContent = [
     id: 3,
     title: 'Ride with Me',
     description:
-      'Ride With Me is a mobile application written in React Native that serves as a community board for motorcyclists to connect with other riders. Upon creation of an account, users can log in, add friends, and join rides based on criteria that they so choose, such as location, distance, and type of ride. Check out our front end code on GitHub, and our back end GraphQL database on GitLab.',
+      'Ride With Me is a mobile application written in React Native that serves as a community board for motorcyclists to connect with other riders. Upon creation of an account, users can log in, add friends, and join rides based on criteria that they so choose, such as location, distance, and type of ride. Check out our front end code on GitHub (featuring React Native, Redux, Apollo, and XCode), and our back end GraphQL database on GitLab.',
     gitHub: 'https://github.com/baldm0mma/ride_with_me',
     gitLab: 'https://gitlab.com/ryanmillergm/motorcycle_ride',
     image: './assets/RideWithMe.gif'
@@ -47,20 +47,11 @@ export const projectContent = [
   {
     id: 6,
     title: '',
-    description: '',
-    gitHub: '',
+    description: "This project was takehome code challenge. The prompt goes as follows: \"Build a single-page application in Vue.js that queries the NASA Astronomy Picture of the Day API and displays the day's image. The application should include a way to view each of the current month's pictures (it's okay if the month only has 1 photo so far, for example if it's the first of the month), and a way to return to the current day's picture. Be creative with how you present the collections - think about the experience of the viewer with what they want to view and learn.\"",
+    gitHub: 'https://github.com/baldm0mma/NASA_APOD_vue',
     gitLab: '',
-    live: '',
-    image: ''
-  },
-  {
-    id: 7,
-    title: '',
-    description: '',
-    gitHub: '',
-    gitLab: '',
-    live: '',
-    image: ''
+    live: 'https://nasa-apod-final.herokuapp.com/',
+    image: './assets/VueNasa.png'
   }
 ];
 

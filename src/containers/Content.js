@@ -9,17 +9,17 @@ export const Content = ({ content }) => {
         <p className='description'>{content.description}</p>
         <aside className='icon-container'>
           {content.gitHub && (
-            <a href={content.gitHub}>
+            <a href={content.gitHub} target='_blank'>
               <img className='icon' src='../assets/gitHub.png' />
             </a>
           )}
           {content.gitLab && (
-            <a href={content.gitLab}>
+            <a href={content.gitLab} target='_blank'>
               <img className='icon' src='../assets/gitlab-icon.png' />
             </a>
           )}
           {content.live && (
-            <a href={content.live}>
+            <a href={content.live} target='_blank'>
               <img className='icon' src='../assets/liveDemo.png' />
             </a>
           )}
