@@ -51,7 +51,7 @@ export const projectContent = [
     gitHub: 'https://github.com/baldm0mma/NASA_APOD_vue',
     gitLab: '',
     live: 'https://nasa-apod-final.herokuapp.com/',
-    image: './assets/VueNasa.png'
+    image: './assets/VueNasa.gif'
   }
 ];
 

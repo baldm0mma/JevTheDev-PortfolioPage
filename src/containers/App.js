@@ -36,7 +36,7 @@ export const App = () => {
         <Content content={projectContent[4]} />
       </Fade>
       <img className='down-arrow' src='./assets/downArrow.png' />
-      <Fade right>
+      <Fade left>
         <Content content={projectContent[2]} />
       </Fade>
       <img className='down-arrow' src='./assets/downArrow.png' />
@@ -44,7 +44,7 @@ export const App = () => {
         <Content content={projectContent[3]} />
       </Fade>
       <img className='down-arrow' src='./assets/downArrow.png' />
-      <Fade right>
+      <Fade left>
         <Content content={projectContent[5]} />
       </Fade>
     </main>
