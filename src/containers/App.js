@@ -1,4 +1,5 @@
 import './App.css';
+import { About } from './About';
 import { Content } from './Content';
 import { NameBadge } from './NameBadge';
 import { projectContent, aboutContent } from '../projectContent/projectContent';
@@ -8,9 +9,9 @@ import React, { useEffect } from 'react';
 import Zoom from 'react-reveal/Zoom';
 
 export const App = () => {
-  // useEffect(() => {
-  //   wakeHerokuApps();
-  // }, []);
+  useEffect(() => {
+    wakeHerokuApps();
+  }, []);
 
   return (
     <main>
@@ -20,6 +21,9 @@ export const App = () => {
         <h4 className='about-title'>About</h4>
       </Zoom>
       <img className='down-arrow' src='./assets/downArrow.png' />
+      <Zoom>
+        <About />
+      </Zoom>
       <Zoom>
         <h4 className='about-title'>Projects</h4>
       </Zoom>

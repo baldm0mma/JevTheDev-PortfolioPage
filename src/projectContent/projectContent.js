@@ -46,7 +46,7 @@ export const projectContent = [
   },
   {
     id: 6,
-    title: '',
+    title: 'NASA POTD in Vue Challange',
     description: "This project was takehome code challenge. The prompt goes as follows: \"Build a single-page application in Vue.js that queries the NASA Astronomy Picture of the Day API and displays the day's image. The application should include a way to view each of the current month's pictures (it's okay if the month only has 1 photo so far, for example if it's the first of the month), and a way to return to the current day's picture. Be creative with how you present the collections - think about the experience of the viewer with what they want to view and learn.\"",
     gitHub: 'https://github.com/baldm0mma/NASA_APOD_vue',
     gitLab: '',
@@ -57,11 +57,13 @@ export const projectContent = [
 
 export const aboutContent = {
   id: 8,
-  title: 'About',
+  name: 'Jev Forsberg',
+  title: 'Software Developer || Educator || Civic Innovator/Advocate',
   description:
     "I was a civic advocate and pastor for almost a decade, and for years I loved the mentorship, community building, teaching, service, team-leading, public speaking, and civil-rights work I did. Recently, I found another interest that I've become incredibly passionate about: technology; and specifically software development. No matter your background, context, region, language, race, religion, ability, gender expression, or any other category we use to label one another, there's a place for you in the tech community, and that's one of the many things I love about it!",
   gitHub: 'https://github.com/baldm0mma',
   linkedIn: 'https://www.linkedin.com/in/jev-forsberg/',
+  resume: 'https://drive.google.com/file/d/1jWfgw2oQn5FtFuxQECQQe70KJp2HP78k/view?usp=sharing',
   image: './assets/Profile-Photo.jpg',
   skills: [
     'JavaScript/TypeScript',
