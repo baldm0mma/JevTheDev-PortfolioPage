@@ -61,15 +61,29 @@ export const projectContent = [
     gitLab: '',
     live: '',
     image: ''
-  },
-  {
-    id: 8,
-    title: 'About',
-    description: "I was a civic advocate and pastor for almost a decade, and for years I loved the mentorship, community building, teaching, service, team-leading, public speaking, and civil-rights work I did. Recently, I found another interest that I've become incredibly passionate about: technology; and specifically software development. No matter your background, context, region, language, race, religion, ability, gender expression, or any other category we use to label one another, there's a place for you in the tech community, and that's one of the many things I love about it!",
-    gitHub: 'https://github.com/baldm0mma',
-    linkedIn: 'https://www.linkedin.com/in/jev-forsberg/',
-    image: './assets/Profile-Photo.jpg'
   }
 ];
 
-
+export const aboutContent = {
+  id: 8,
+  title: 'About',
+  description:
+    "I was a civic advocate and pastor for almost a decade, and for years I loved the mentorship, community building, teaching, service, team-leading, public speaking, and civil-rights work I did. Recently, I found another interest that I've become incredibly passionate about: technology; and specifically software development. No matter your background, context, region, language, race, religion, ability, gender expression, or any other category we use to label one another, there's a place for you in the tech community, and that's one of the many things I love about it!",
+  gitHub: 'https://github.com/baldm0mma',
+  linkedIn: 'https://www.linkedin.com/in/jev-forsberg/',
+  image: './assets/Profile-Photo.jpg',
+  skills: [
+    'JavaScript/TypeScript',
+    'CSS3/SASS/Bootstrap.js/Material UI',
+    'HTML5',
+    'jQuery',
+    'React.js/React Native/Vue.js',
+    'Redux',
+    'Git/GitHub',
+    'RESTful APIs/GraphQL Node.js/Express.js',
+    'Trello/Jira/Scoro',
+    'Travis/Circle CI',
+    'Agile Processes',
+    'OOP/TDD'
+  ]
+};

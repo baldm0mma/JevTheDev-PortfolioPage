@@ -1,5 +1,11 @@
 .nameBadge-container {
   width: 40%;
-  background-color: red;
-  margin: 200px 0;
+  background-image: url('../backgrounds/background-light-grey.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  border-radius: 15px;
 }

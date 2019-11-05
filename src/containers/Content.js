@@ -1,4 +1,5 @@
 import React from 'react';
+import './Content.css';
 
 export const Content = ({ content }) => {
   return (
@@ -9,17 +10,17 @@ export const Content = ({ content }) => {
         <aside className='icon-container'>
           {content.gitHub && (
             <a href={content.gitHub}>
-              <img src='../assets/gitHub.png' />
+              <img className='icon' src='../assets/gitHub.png' />
             </a>
           )}
           {content.gitLab && (
             <a href={content.gitLab}>
-              <img src='../assets/gitlab-icon.png' />
+              <img className='icon' src='../assets/gitlab-icon.png' />
             </a>
           )}
           {content.live && (
             <a href={content.live}>
-              <img src='../assets/liveDemo.png' />
+              <img className='icon' src='../assets/liveDemo.png' />
             </a>
           )}
         </aside>

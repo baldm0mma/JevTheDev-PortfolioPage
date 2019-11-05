@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
 
 * {
-  border: red solid 1px;
+  /* border: red solid 1px; */
 }
 
 body {
@@ -18,10 +18,12 @@ main {
 }
 
 .down-arrow {
-  width: 20px;
+  width: 30px;
   margin-bottom: 200px;
+  background-color: white;
 }
 
 .about-title {
   margin-bottom: 5px;
+  font-size: 30px;
 }
