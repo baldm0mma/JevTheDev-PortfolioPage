@@ -9,6 +9,7 @@ const {
   gitHub,
   linkedIn,
   resume,
+  email,
   image,
   skills
 } = aboutContent;
@@ -39,6 +40,9 @@ export const About = () => {
         </a>
         <a className='about-link' href={linkedIn} target='_blank'>
           <img className='icon' src='../assets/linkedIn.png' />
+        </a>
+        <a className='about-link' href={email} target='_blank'>
+          <img className='icon' src='../assets/email.png' />
         </a>
       </article>
     </section>

@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import './App.css';
-import { About } from './About.js';
-import { Content } from './Content.js';
-import { NameBadge } from './NameBadge.js';
+import { About } from './About';
+import { Content } from './Content';
+import { NameBadge } from './NameBadge';
 import { projectContent, aboutContent } from '../projectContent/projectContent';
-import { wakeHerokuApps } from '../fetchCalls.js';
+import { wakeHerokuApps } from '../fetchCalls';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+import './App.css';
 
 export const App = () => {
   useEffect(() => {
@@ -16,7 +16,6 @@ export const App = () => {
   return (
     <main>
       <NameBadge />
-      <img className='down-arrow' src='./assets/downArrow.png' />
       <Zoom>
         <h4 className='about-title'>About</h4>
       </Zoom>

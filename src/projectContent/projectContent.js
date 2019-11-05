@@ -64,6 +64,7 @@ export const aboutContent = {
   gitHub: 'https://github.com/baldm0mma',
   linkedIn: 'https://www.linkedin.com/in/jev-forsberg/',
   resume: 'https://drive.google.com/file/d/1jWfgw2oQn5FtFuxQECQQe70KJp2HP78k/view?usp=sharing',
+  email: 'mailto:jev.forsberg@gmail.com',
   image: './assets/Profile-Photo.jpg',
   skills: [
     'JavaScript/TypeScript',
