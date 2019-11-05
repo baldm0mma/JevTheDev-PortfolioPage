@@ -15,7 +15,7 @@ export const App = () => {
 
   return (
     <main>
-      <NameBadge />
+      {/* <NameBadge /> */}
       <Zoom>
         <h4 className='about-title'>About</h4>
       </Zoom>
