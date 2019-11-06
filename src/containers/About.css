@@ -4,23 +4,16 @@
   justify-content: center;
   align-items: center;
   width: 600px;
-  margin-bottom: 200px;
+  margin-bottom: 70px;
 }
 
 .profile-photo {
   width: 500px;
   border-radius: 250px;
+  margin-bottom: 30px;
 }
 
 .skill {
   list-style-type: none;
   margin: 8px;
-}
-
-.about-link {
-  margin: 15px;
-}
-
-.about-icon-container {
-  margin-top: 30px;
 }

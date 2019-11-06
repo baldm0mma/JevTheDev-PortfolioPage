@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { About } from './About';
+import { Contact } from './Contact';
 import { Content } from './Content';
 import { projectContent } from '../projectContent/projectContent';
 import { wakeHerokuApps } from '../fetchCalls';
@@ -81,6 +82,9 @@ export const App = () => {
       />
       <Fade left>
         <Content content={projectContent[5]} />
+      </Fade>
+      <Fade top>
+        <Contact />
       </Fade>
     </main>
   );
