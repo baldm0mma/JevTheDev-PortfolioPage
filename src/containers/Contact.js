@@ -21,7 +21,7 @@ export const Contact = () => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        <img className='icon' src='../assets/gitHub.png' alt='GitHub Icon' />
+        <img className='icon' src='../assets/gitHub-black.png' alt='GitHub Icon' />
       </a>
       <a
         className='about-link'

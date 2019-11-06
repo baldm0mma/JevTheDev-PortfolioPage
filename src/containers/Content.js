@@ -12,7 +12,7 @@ export const Content = ({ content }) => {
             <a href={content.gitHub} target='_blank' rel='noopener noreferrer'>
               <img
                 className='icon'
-                src='../assets/gitHub.png'
+                src='../assets/gitHub-white.png'
                 alt='GitHub Icon'
               />
             </a>
