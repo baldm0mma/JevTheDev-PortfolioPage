@@ -63,7 +63,7 @@ export const aboutContent = {
     "I was a civic advocate and pastor for almost a decade, and for years I loved the mentorship, community building, teaching, service, team-leading, public speaking, and civil-rights work I did. Recently, I found another interest that I've become incredibly passionate about: technology; and specifically software development. No matter your background, context, region, language, race, religion, ability, gender expression, or any other category we use to label one another, there's a place for you in the tech community, and that's one of the many things I love about it!",
   gitHub: 'https://github.com/baldm0mma',
   linkedIn: 'https://www.linkedin.com/in/jev-forsberg/',
-  resume: 'https://drive.google.com/file/d/1jWfgw2oQn5FtFuxQECQQe70KJp2HP78k/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/13oeZ4I_JIaQR6OYHEpLVVP33yKNV_kwP/view?usp=sharing',
   email: 'mailto:jev.forsberg@gmail.com',
   image: './assets/Profile-Photo.jpg',
   skills: [
