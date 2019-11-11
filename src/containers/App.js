@@ -33,7 +33,7 @@ export const App = () => {
         <About />
       </Zoom>
       <Zoom>
-        <h4 className='about-title'>Projects</h4>
+        <h4 className='about-title'>Personal Projects</h4>
       </Zoom>
       <img
         className='down-arrow'
