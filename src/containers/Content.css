@@ -46,3 +46,30 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 1000px) {
+  .content-container {
+    flex-direction: column;
+  }
+
+  .description-container {
+    align-self: center;
+    width: 475px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content-container {
+    width: 450px;
+  }
+
+  .project-sample-image {
+    max-height: 400px;
+    max-width: 400px;
+  }
+
+  .description-container {
+    align-self: center;
+    width: 450px;
+  }
+}
