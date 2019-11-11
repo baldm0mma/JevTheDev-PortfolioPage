@@ -23,3 +23,13 @@
     width: 450px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .about-container {
+    width: 350px;
+  }
+
+  .profile-photo {
+    width: 350px;
+  }
+}

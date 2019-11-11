@@ -64,12 +64,26 @@
   }
 
   .project-sample-image {
-    max-height: 400px;
     max-width: 400px;
   }
 
   .description-container {
     align-self: center;
     width: 450px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .content-container {
+    width: 350px;
+  }
+
+  .project-sample-image {
+    max-width: 300px;
+  }
+
+  .description-container {
+    align-self: center;
+    width: 300px;
   }
 }
