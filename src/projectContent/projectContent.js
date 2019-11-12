@@ -86,7 +86,7 @@ export const contractContent = [
   {
     title: 'SchoolSAFE Communications',
     dates: 'October 2019 - Present',
-    description: "Reengineering an obsolescent code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end system and IoT devices.",
-    image: ''
+    description: "Reengineered an obsolescent code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end systems and IoT devices.",
+    image: './assets/Profile-Photo.jpg'
   }
 ]
