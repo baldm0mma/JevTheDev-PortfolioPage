@@ -2,7 +2,11 @@ import React, { useEffect } from 'react';
 import { About } from './About';
 import { Contact } from './Contact';
 import { Content } from './Content';
-import { projectContent } from '../projectContent/projectContent';
+import { Contract } from './Contract';
+import {
+  projectContent,
+  contractContent
+} from '../projectContent/projectContent';
 import { wakeHerokuApps } from '../fetchCalls';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
@@ -33,7 +37,26 @@ export const App = () => {
         <About />
       </Zoom>
       <Zoom>
-        <h4 className='about-title'>Projects</h4>
+        <h4 className='about-title'>Professional Work</h4>
+      </Zoom>
+      <img
+        className='down-arrow'
+        src='./assets/downArrow.png'
+        alt='Down Arrow'
+      />
+      <Fade right>
+        <Contract content={contractContent[0]} />
+      </Fade>
+      <img
+        className='down-arrow'
+        src='./assets/downArrow.png'
+        alt='Down Arrow'
+      />
+      <Fade left>
+        <Contract content={contractContent[1]} />
+      </Fade>
+      <Zoom>
+        <h4 className='about-title'>Personal Projects</h4>
       </Zoom>
       <img
         className='down-arrow'

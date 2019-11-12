@@ -1,8 +1,7 @@
-export const testReducer = (state = 'test', action) => {
-  const { type } = action;
+export const testReducer = (state = 'test', { type, changedState }) => {
   switch (type) {
     case 'TEST_STORE':
-      return state;
+      return changedState;
     default:
       return state;
   }
