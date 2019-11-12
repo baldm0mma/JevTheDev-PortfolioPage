@@ -44,8 +44,16 @@ export const App = () => {
         src='./assets/downArrow.png'
         alt='Down Arrow'
       />
-      <Fade left>
+      <Fade right>
         <Contract content={contractContent[0]} />
+      </Fade>
+      <img
+        className='down-arrow'
+        src='./assets/downArrow.png'
+        alt='Down Arrow'
+      />
+      <Fade left>
+        <Contract content={contractContent[1]} />
       </Fade>
       <Zoom>
         <h4 className='about-title'>Personal Projects</h4>
