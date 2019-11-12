@@ -88,5 +88,11 @@ export const contractContent = [
     dates: 'October 2019 - Present',
     description: "Reengineered an obsolescent code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end systems and IoT devices.",
     image: './assets/Profile-Photo.jpg'
+  },
+  {
+    title: 'Bryan Barton Construction',
+    dates: 'October 2019 - Present',
+    description: "Designed, built, and implmented a full-stack, multi-interface ",
+    image: './assets/Profile-Photo.jpg'
   }
 ]
