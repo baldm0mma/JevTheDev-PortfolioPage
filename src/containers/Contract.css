@@ -24,3 +24,48 @@
   max-width: 400px;
   padding: 30px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .contract-container {
+    flex-direction: column;
+  }
+
+  .contract-image {
+    align-self: center;
+  }
+
+  .contract-info-container {
+    align-self: center;
+    width: 475px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contract-container {
+    width: 450px;
+  }
+
+  .contract-image {
+    max-width: 400px;
+  }
+
+  .contract-info-container {
+    align-self: center;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contract-container {
+    width: 350px;
+  }
+
+  .contract-image {
+    max-width: 300px;
+  }
+
+  .contract-info-container {
+    align-self: center;
+    width: 300px;
+  }
+}

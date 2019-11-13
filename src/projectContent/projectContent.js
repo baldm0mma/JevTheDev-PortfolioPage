@@ -85,13 +85,13 @@ export const aboutContent = {
 export const contractContent = [
   {
     title: 'SchoolSAFE Communications',
-    dates: 'October 2019 - Present',
+    dates: 'September 2019 - Present',
     description: "Reengineered an obsolescent code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end systems and IoT devices.",
     image: './assets/under-construction.png'
   },
   {
     title: 'Bryan Barton Construction',
-    dates: 'October 2019 - Present',
+    dates: 'September 2019 - Present',
     description: "Designed, built, and implemented a dynamic, full-stack, and multi-interface web application that connects homeowners and property managers with construction and home repair needs with builders and contractors. Homeowners/property managers, contractors, and administrators all have separate logins and permissions; Homeowners/property managers can enter a job, then contractors/builders can enter a bid, finally a bid is chosen, and the job is archived.",
     image: './assets/under-construction.png'
   }
