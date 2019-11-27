@@ -15,7 +15,7 @@ export const projectContent = [
       "Rome wasn't built in a day; but this app was! A finalist for the 2019 Tech to Protect Hackathon, Home Safe gives homeowners an easy way to upload their pertinent safety information to be stored and displayed in a useful manner. It encourages users to complete a safety checklist, upload floor plans, and create a pre-incident plan to be printed and saved for display in the home. All of these features culminate to help homeowners get insurance breaks and offer first responders an amazing set of data that will help them do their job.",
     gitHub: "https://github.com/baldm0mma/home-safe",
     live: "https://ttp-home-safe.herokuapp.com/",
-    image: "./assets/HomeSafe.png"
+    image: "./assets/HomeSafe.gif"
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ export const aboutContent = {
   resume:
     "https://drive.google.com/file/d/1HrJA3eRJideTGS6LHOrS39CrqD9bIt74/view?usp=sharing",
   email: "mailto:jev.forsberg@gmail.com",
-  image: "./assets/Profile-Photo.jpg",
+  image: "./assets/Profile-Gif.gif",
   skills: [
     "JavaScript/TypeScript",
     "React.js/Vue.js/React Native",
