@@ -22,7 +22,7 @@ export const App = () => {
       <Zoom>
         <article className='nameBadge-container'>
           <h2>Welcome to _jevTheDev</h2>
-          <p>Hi, I'm Jev; This is my portfolio.</p>
+          <p>Hi, I'm Jev. I'm a Dev. This is my portfolio.</p>
         </article>
       </Zoom>
       <Zoom>
