@@ -41,7 +41,7 @@ export const Content = ({ content }) => {
         <img
           className='project-sample-image'
           src={content.image}
-          alt='Projct Image'
+          alt='Project'
         />
       </article>
     </section>
