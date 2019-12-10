@@ -14,7 +14,7 @@ export const About = () => {
 
   return (
     <section className='about-container'>
-      <img className='profile-photo' src={image} alt='Profile Photo' />
+      <img className='profile-photo' src={image} alt='Headshot' />
       <h2>{name}</h2>
       <h4>{title}</h4>
       <p>{description}</p>
