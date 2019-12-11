@@ -1,7 +1,13 @@
-test("Fake test 1", () => {
-  expect(true).toBeTruthy();
+import React from "react";
+import ReactDOM from "react-dom";
+import { shallow } from "enzyme";
+import { App } from "./App";
+
+it("should be truthy", () => {
+  expect(App).toBeTruthy();
 });
 
-test("Fake test 2", () => {
-  expect(true).toBeTruthy();
+it("should render without crashing", () => {
+  shallow(<App />);
 });
+
