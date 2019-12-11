@@ -18,7 +18,7 @@ export const App = () => {
     <main>
       <Zoom>
         <article className="nameBadge-container">
-          <h1>Welcome to _jevTheDev</h1>
+          <h1 data-testId="page-title">Welcome to _jevTheDev</h1>
           <p>Hi, I'm Jev. I'm a Dev. This is my portfolio.</p>
         </article>
       </Zoom>
