@@ -7,7 +7,7 @@ it("should be truthy", () => {
   expect(App).toBeTruthy();
 });
 
-it("should render without crashing", () => {
-  shallow(<App />);
-});
+// it("should render without crashing", () => {
+//   shallow(<App />);
+// });
 
