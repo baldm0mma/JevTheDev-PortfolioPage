@@ -21,7 +21,7 @@ export const App = () => {
     <main>
       <Zoom>
         <article className="nameBadge-container">
-          <h2>Welcome to _jevTheDev</h2>
+          <h1>Welcome to _jevTheDev</h1>
           <p>Hi, I'm Jev. I'm a Dev. This is my portfolio.</p>
         </article>
       </Zoom>
