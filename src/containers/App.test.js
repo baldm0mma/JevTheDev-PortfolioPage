@@ -3,12 +3,9 @@ import ReactDOM from "react-dom";
 import { shallow, mount } from "enzyme";
 import { App } from "./App";
 
-it("should be truthy", () => {
-  expect(<App />).toBeTruthy();
-});
-
 it("should render without crashing", () => {
-  shallow(<App />);
+  const component = shallow(<App />);
+  expect(component).toBeTruthy();
 });
 
 it("renders a welcome message", () => {
