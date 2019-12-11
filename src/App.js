@@ -1,13 +1,10 @@
 import React, { useEffect } from "react";
-import { About } from "./About";
-import { Contact } from "./Contact";
-import { Content } from "./Content";
-import { Contract } from "./Contract";
-import {
-  projectContent,
-  contractContent
-} from "../projectContent/projectContent";
-import { wakeHerokuApps } from "../fetchCalls";
+import { About } from "./containers/About/About";
+import { Contact } from "./containers/Contact/Contact";
+import { Content } from "./containers/Content/Content";
+import { Contract } from "./containers/Contract/Contract";
+import { projectContent, contractContent } from "./allData/allData.js";
+import { wakeHerokuApps } from "./fetchCalls";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 import "./App.css";

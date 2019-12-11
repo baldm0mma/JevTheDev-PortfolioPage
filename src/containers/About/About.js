@@ -1,6 +1,6 @@
 import React from "react";
-import { Contact } from "./Contact";
-import { aboutContent } from "../projectContent/projectContent.js";
+import { Contact } from "../Contact/Contact";
+import { aboutContent } from "../../allData/allData.js";
 import "./About.css";
 
 const { name, title, description, image, skills } = aboutContent;
