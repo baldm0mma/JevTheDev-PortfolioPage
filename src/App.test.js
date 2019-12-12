@@ -16,6 +16,6 @@ it("renders a welcome message", () => {
   expect(wrapper).toContainReact(welcome);
 
   // Approach #2 - assert that a search of shallow wrapper by specific data attribute will render a specific text.
-  const welcomeMessage = wrapper.find("[data-testId='page-title']");
-  expect(welcomeMessage.text()).toBe("Welcome to _jevTheDev");
+  const welcomeMessage = wrapper.find("[data-testId='page-title']").text();
+  expect(welcomeMessage).toBe("Welcome to _jevTheDev");
 });
