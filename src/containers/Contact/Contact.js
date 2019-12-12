@@ -4,7 +4,7 @@ import { Icon } from "../Icon/Icon";
 import "./Contact.css";
 
 const { gitHub, linkedIn, resume, email } = aboutContent;
-const relativeSources = [
+const iconInfo = [
   {
     type: "Resume",
     link: resume,
@@ -33,7 +33,7 @@ const relativeSources = [
 
 export const Contact = () => {
   const displayIcons = () => {
-    return relativeSources.map(source => <Icon source={source} />);
+    return iconInfo.map(source => <Icon source={source} key={source.type} />);
   };
 
   return <article className="about-icon-container">{displayIcons()}</article>;
