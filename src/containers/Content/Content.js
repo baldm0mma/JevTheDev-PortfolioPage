@@ -2,14 +2,19 @@ import React from "react";
 import "./Content.css";
 
 export const Content = ({ content }) => {
+  const { title, description, gitHub, gitLab, live, image } = content;
   return (
     <section className="content-container">
       <article className="description-container">
-        <h3 className="title">{content.title}</h3>
-        <p className="description">{content.description}</p>
+        <h3 className="title" data-testid="content-title">
+          {title}
+        </h3>
+        <p className="description" data-testid="content-description">
+          {description}
+        </p>
         <aside className="icon-container">
-          {content.gitHub && (
-            <a href={content.gitHub} target="_blank" rel="noopener noreferrer">
+          {gitHub && (
+            <a href={gitHub} target="_blank" rel="noopener noreferrer">
               <img
                 className="icon"
                 src="../assets/gitHub-white.png"
@@ -17,8 +22,8 @@ export const Content = ({ content }) => {
               />
             </a>
           )}
-          {content.gitLab && (
-            <a href={content.gitLab} target="_blank" rel="noopener noreferrer">
+          {gitLab && (
+            <a href={gitLab} target="_blank" rel="noopener noreferrer">
               <img
                 className="icon"
                 src="../assets/gitlab-icon.png"
@@ -26,8 +31,8 @@ export const Content = ({ content }) => {
               />
             </a>
           )}
-          {content.live && (
-            <a href={content.live} target="_blank" rel="noopener noreferrer">
+          {live && (
+            <a href={live} target="_blank" rel="noopener noreferrer">
               <img
                 className="icon"
                 src="../assets/liveDemo.png"
@@ -38,11 +43,7 @@ export const Content = ({ content }) => {
         </aside>
       </article>
       <article className="image-container">
-        <img
-          className="project-sample-image"
-          src={content.image}
-          alt="Project"
-        />
+        <img className="project-sample-image" src={image} alt="Project" />
       </article>
     </section>
   );

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Component should match the snapshot 1`] = `
+<section
+  className="content-container"
+>
+  <article
+    className="description-container"
+  >
+    <h3
+      className="title"
+      data-testid="content-title"
+    >
+      My Eighties Computer (NPM Package)
+    </h3>
+    <p
+      className="description"
+      data-testid="content-description"
+    >
+      This is the first NPM Package I've ever written! I love contributing to free, opensource code, and I'm really excited for this to be my first home-baked contribution! There are four components in total, a styled h1, a styled paragraph text, and two styled and controlled forms. The h1 and paragraph texts take a single prop, which is the text that they will display; and the two form components take two props each; one is the text title for the form, and the second is a callback function that returns the current controlled state of the form inputs. It was a blast to make, and I hope someone gets some use out of it!
+    </p>
+    <aside
+      className="icon-container"
+    >
+      <a
+        href="https://github.com/baldm0mma/my-eighties-computer"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="GitHub Icon"
+          className="icon"
+          src="../assets/gitHub-white.png"
+        />
+      </a>
+      <a
+        href="https://baldm0mma.github.io/my-eighties-computer/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Live Demo Icon"
+          className="icon"
+          src="../assets/liveDemo.png"
+        />
+      </a>
+    </aside>
+  </article>
+  <article
+    className="image-container"
+  >
+    <img
+      alt="Project"
+      className="project-sample-image"
+      src="./assets/My80sComputer.png"
+    />
+  </article>
+</section>
+`;
