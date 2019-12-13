@@ -2,20 +2,7 @@
 
 exports[`App component should match the snapshot 1`] = `
 <main>
-  <Zoom>
-    <article
-      className="nameBadge-container"
-    >
-      <h1
-        data-testid="page-title"
-      >
-        Welcome to _jevTheDev
-      </h1>
-      <p>
-        Hi, I'm Jev. I'm a Dev. This is my portfolio.
-      </p>
-    </article>
-  </Zoom>
+  <NameBadge />
   <Zoom>
     <h4
       className="about-title"
