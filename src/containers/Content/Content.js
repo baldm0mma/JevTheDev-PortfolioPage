@@ -3,6 +3,7 @@ import "./Content.css";
 
 export const Content = ({ content }) => {
   const { title, description, gitHub, gitLab, live, image } = content;
+  
   return (
     <section className="content-container">
       <article className="description-container">
