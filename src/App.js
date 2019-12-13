@@ -4,7 +4,7 @@ import { Contact } from "./containers/Contact/Contact";
 import { Content } from "./containers/Content/Content";
 import { Contract } from "./containers/Contract/Contract";
 import { projectContent, contractContent } from "./allData/allData.js";
-import { wakeHerokuApps } from "./fetchCalls";
+import { wakeHerokuApps } from "./apiCalls";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 import "./App.css";
@@ -18,7 +18,7 @@ export const App = () => {
     <main>
       <Zoom>
         <article className="nameBadge-container">
-          <h1 data-testId="page-title">Welcome to _jevTheDev</h1>
+          <h1 data-testid="page-title">Welcome to _jevTheDev</h1>
           <p>Hi, I'm Jev. I'm a Dev. This is my portfolio.</p>
         </article>
       </Zoom>
