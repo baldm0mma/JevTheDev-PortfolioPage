@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Component should match the snapshot 1`] = `
+<section
+  className="about-container"
+>
+  <img
+    alt="Headshot"
+    className="profile-photo"
+    data-testid="about-image"
+    src="./assets/Profile-Gif.gif"
+  />
+  <h2
+    data-testid="about-name"
+  >
+    Jev Forsberg
+  </h2>
+  <h4
+    data-testid="about-title"
+  >
+    Software Developer || Educator || Civic Innovator/Advocate
+  </h4>
+  <p
+    data-testid="about-description"
+  >
+    I was a civic advocate and pastor for almost a decade, and for years I loved the mentorship, community building, teaching, service, team-leading, public speaking, and civil-rights work I did. Recently, I found another interest that I've become incredibly passionate about: technology; and specifically software development. No matter your background, context, region, language, race, religion, ability, gender expression, or any other category we use to label one another, there's a place for you in the tech community, and that's one of the many things I love about it!
+  </p>
+  <article
+    data-testid="about-skill-list"
+  >
+    <h3>
+      Core Skills:
+    </h3>
+    <p
+      className="skill"
+      key="JavaScript/TypeScript"
+    >
+      JavaScript/TypeScript
+    </p>
+    <p
+      className="skill"
+      key="React.js/Vue.js/React Native"
+    >
+      React.js/Vue.js/React Native
+    </p>
+    <p
+      className="skill"
+      key="Redux"
+    >
+      Redux
+    </p>
+    <p
+      className="skill"
+      key="Node.js/Express.js"
+    >
+      Node.js/Express.js
+    </p>
+    <p
+      className="skill"
+      key="RESTful/CRUD APIs/GraphQL"
+    >
+      RESTful/CRUD APIs/GraphQL
+    </p>
+    <p
+      className="skill"
+      key="PostgreSQL/Knex.js/SQL"
+    >
+      PostgreSQL/Knex.js/SQL
+    </p>
+    <p
+      className="skill"
+      key="CSS3/SASS/Bootstrap.js/Material UI"
+    >
+      CSS3/SASS/Bootstrap.js/Material UI
+    </p>
+    <p
+      className="skill"
+      key="HTML5"
+    >
+      HTML5
+    </p>
+    <p
+      className="skill"
+      key="jQuery"
+    >
+      jQuery
+    </p>
+    <p
+      className="skill"
+      key="Git/GitHub"
+    >
+      Git/GitHub
+    </p>
+    <p
+      className="skill"
+      key="Trello/Jira/Scoro"
+    >
+      Trello/Jira/Scoro
+    </p>
+    <p
+      className="skill"
+      key="Travis/Circle CI"
+    >
+      Travis/Circle CI
+    </p>
+    <p
+      className="skill"
+      key="Agile Processes"
+    >
+      Agile Processes
+    </p>
+    <p
+      className="skill"
+      key="OOP/TDD"
+    >
+      OOP/TDD
+    </p>
+  </article>
+  <Contact />
+</section>
+`;
