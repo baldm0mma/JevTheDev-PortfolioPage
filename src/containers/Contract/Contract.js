@@ -7,9 +7,15 @@ export const Contract = ({ content }) => {
   return (
     <article className="contract-container">
       <section className="contract-info-container">
-        <h3 className="contract-title">{title}</h3>
-        <h4 className="contract-dates">Contract Dates: {dates}</h4>
-        <p className="contract-description">{description}</p>
+        <h3 className="contract-title" data-testid="contract-title">
+          {title}
+        </h3>
+        <h4 className="contract-dates" data-testid="contract-dates">
+          Contract Dates: {dates}
+        </h4>
+        <p className="contract-description" data-testid="contract-description">
+          {description}
+        </p>
       </section>
       <article className="contract-image-container">
         <img

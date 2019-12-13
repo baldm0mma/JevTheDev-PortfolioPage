@@ -6,8 +6,8 @@ export const NameBadge = () => {
   return (
     <Zoom>
       <article className="nameBadge-container">
-        <h2>Welcome to _jevTheDev</h2>
-        <p>Hi, I'm Jev; This is my portfolio.</p>
+        <h1 data-testid="page-title">Welcome to _jevTheDev</h1>
+        <p>Hi, I'm Jev. I'm a Dev. This is my portfolio.</p>
       </article>
     </Zoom>
   );
