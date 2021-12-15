@@ -89,7 +89,7 @@ export const aboutContent = {
 export const contractContent = [
   {
     title: "SchoolSAFE Communications",
-    dates: "September 2019 - January 2020",
+    dates: "September 2018 - December 2019",
     description:
       "Reengineered an obsolete code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end systems and IoT devices. Featured Bcrypt, JWT, and Secure Cookies for authentication and sessioning.",
     image: "./assets/SchoolSAFE.gif"
