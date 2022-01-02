@@ -1,0 +1,81 @@
+.fullTime-container {
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../backgrounds/background-light-grey.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: 120px;
+  text-shadow: white 8px 8px 25px;
+  width: auto;
+}
+
+.fullTime-info-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 350px;
+}
+
+.fullTime-image-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.fullTime-image {
+  max-height: 400px;
+  max-width: 400px;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .fullTime-container {
+    flex-direction: column;
+  }
+
+  .fullTime-image {
+    align-self: center;
+    max-width: 475px;
+  }
+
+  .fullTime-info-container {
+    align-self: center;
+    width: 475px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .fullTime-container {
+    width: 450px;
+  }
+
+  .fullTime-image {
+    max-width: 350px;
+  }
+
+  .fullTime-info-container {
+    align-self: center;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .fullTime-container {
+    width: 350px;
+  }
+
+  .fullTime-image {
+    max-width: 300px;
+  }
+
+  .fullTime-info-container {
+    align-self: center;
+    width: 300px;
+  }
+}

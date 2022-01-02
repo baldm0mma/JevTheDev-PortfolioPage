@@ -82,24 +82,27 @@ export const aboutContent = {
 
 export const fullTimeContent = [
   {
-    title: "TurbineLabs",
+    companyName: "TurbineLabs",
+    jobTitle: "Software Engineer II",
     dates: "December 2019 - Current",
     description:
       "Our goal at Turbine Labs is to take the static of the world's external information and transform it into actionable intelligence that is compact, rich, and useful. Our team has years of engineering experience building full-stack, enterprise-level, data-heavy, end-to-end analytics software that serves numerous fortune 500 companies and organizations. I love my team at TL, and have been fortunate enough to learn and refine a number of my technological skills; including TypeScript, React, and StyledComponents on the client-side, and Elixir, Kubernetes, GCP, Postgres, and ElasticSearch server-side.",
-    image: "./assets/SchoolSAFE.gif",
+    image: "./assets/TurbineLabs_JetBeaker_RGB_Outline.png",
   },
 ];
 
 export const contractContent = [
   {
-    title: "SchoolSAFE Communications",
+    companyName: "SchoolSAFE Communications",
+    jobTitle: "Software Engineer",
     dates: "September 2018 - December 2019",
     description:
       "Reengineered an obsolete code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end systems and IoT devices. Featured Bcrypt, JWT, and Secure Cookies for authentication and sessioning.",
     image: "./assets/SchoolSAFE.gif",
   },
   {
-    title: "Bryan Barton Construction",
+    companyName: "Bryan Barton Construction",
+    jobTitle: "Software Engineer",
     dates: "September 2019 - January 2020",
     description:
       "Designed, built, and implemented a dynamic, full-stack, and multi-interface web application that connects homeowners and property managers with construction and home repair needs with builders and contractors. Homeowners/property managers, contractors, and administrators all have separate logins and permissions; Homeowners/property managers can enter a job, then contractors/builders can enter a bid, finally a bid is chosen, and the job is archived.",
