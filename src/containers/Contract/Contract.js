@@ -2,13 +2,16 @@ import React from "react";
 import "./Contract.css";
 
 export const Contract = ({ content }) => {
-  const { title, dates, description, image } = content;
+  const { companyName, jobTitle, dates, description, image } = content;
 
   return (
     <article className="contract-container">
       <section className="contract-info-container">
         <h3 className="contract-title" data-testid="contract-title">
-          {title}
+          {companyName}
+        </h3>
+        <h3 className="contract-title" data-testid="contract-title">
+          {jobTitle}
         </h3>
         <h4 className="contract-dates" data-testid="contract-dates">
           Contract Dates: {dates}
@@ -21,7 +24,7 @@ export const Contract = ({ content }) => {
         <img
           className="contract-image"
           src={image}
-          alt={`${title} contract project`}
+          alt={`${companyName} contract project`}
         />
       </article>
     </article>

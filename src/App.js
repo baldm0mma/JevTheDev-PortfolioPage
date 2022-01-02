@@ -3,8 +3,13 @@ import { About } from "./containers/About/About";
 import { Contact } from "./containers/Contact/Contact";
 import { Content } from "./containers/Content/Content";
 import { Contract } from "./containers/Contract/Contract";
+import { FullTime } from "./containers/FullTime/FullTime";
 import { NameBadge } from "./containers/NameBadge/NameBadge";
-import { projectContent, contractContent } from "./allData/allData.js";
+import {
+  projectContent,
+  contractContent,
+  fullTimeContent,
+} from "./allData/allData.js";
 import { wakeHerokuApps } from "./apiCalls";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
@@ -32,6 +37,14 @@ export const App = () => {
       <Zoom>
         <h4 className="about-title">Professional Work</h4>
       </Zoom>
+      <img
+        className="down-arrow"
+        src="./assets/downArrow.png"
+        alt="Down Arrow"
+      />
+      <Fade left>
+        <FullTime content={fullTimeContent[0]} />
+      </Fade>
       <img
         className="down-arrow"
         src="./assets/downArrow.png"
