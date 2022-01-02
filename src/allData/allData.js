@@ -80,6 +80,16 @@ export const aboutContent = {
   ],
 };
 
+export const fullTimeContent = [
+  {
+    title: "TurbineLabs",
+    dates: "December 2019 - Current",
+    description:
+      "Our goal at Turbine Labs is to take the static of the world's external information and transform it into actionable intelligence that is compact, rich, and useful. Our team has years of engineering experience building full-stack, enterprise-level, data-heavy, end-to-end analytics software that serves numerous fortune 500 companies and organizations. I love my team at TL, and have been fortunate enough to learn and refine a number of my technological skills; including TypeScript, React, and StyledComponents on the client-side, and Elixir, Kubernetes, GCP, Postgres, and ElasticSearch server-side.",
+    image: "./assets/SchoolSAFE.gif",
+  },
+];
+
 export const contractContent = [
   {
     title: "SchoolSAFE Communications",
