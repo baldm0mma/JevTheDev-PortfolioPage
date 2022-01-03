@@ -53,14 +53,14 @@ export const App = () => {
       <Fade right>
         <Contract content={contractContent[0]} />
       </Fade>
-      <img
+      {/* <img
         className="down-arrow"
         src="./assets/downArrow.png"
         alt="Down Arrow"
       />
       <Fade left>
         <Contract content={contractContent[1]} />
-      </Fade>
+      </Fade> */}
       <Zoom>
         <h4 className="about-title">Personal Projects</h4>
       </Zoom>

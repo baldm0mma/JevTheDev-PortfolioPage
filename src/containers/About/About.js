@@ -2,12 +2,13 @@ import React from "react";
 import { Contact } from "../Contact/Contact";
 import { aboutContent } from "../../allData/allData.js";
 import "./About.css";
+// import image from "./../../assets/Profile-Gif.gif";
 
-const { name, title, description, image, skills } = aboutContent;
+const { name, title, image, description, skills } = aboutContent;
 
 export const About = () => {
   const createSkillList = () => {
-    return skills.map(skill => {
+    return skills.map((skill) => {
       return (
         <p className="skill" key={skill}>
           {skill}
