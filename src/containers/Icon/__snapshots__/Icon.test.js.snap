@@ -3,7 +3,7 @@
 exports[`Icon component should match the snapshot 1`] = `
 <a
   className="about-link"
-  data-testId="icon-a-tag"
+  data-testid="icon-a-tag"
   href="www.resume.com"
   rel="noopener noreferrer"
   target="_blank"
