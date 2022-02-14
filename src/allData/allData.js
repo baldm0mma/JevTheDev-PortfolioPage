@@ -95,17 +95,17 @@ export const contractContent = [
   {
     companyName: "SchoolSAFE Communications",
     jobTitle: "Software Engineer",
-    dates: "September 2018 - December 2019",
+    dates: "May 2019 - December 2019",
     description:
       "Reengineered an obsolete code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end systems and IoT devices. Featured Bcrypt, JWT, and Secure Cookies for authentication and sessioning.",
     image: "./assets/SchoolSAFE.png",
   },
   {
-    companyName: "Bryan Barton Construction",
-    jobTitle: "Software Engineer",
-    dates: "September 2019 - January 2020",
+    companyName: "Contract Web Developer",
+    jobTitle: "Web Developer",
+    dates: "September 2018 - June 2019",
     description:
-      "Designed, built, and implemented a dynamic, full-stack, and multi-interface web application that connects homeowners and property managers with construction and home repair needs with builders and contractors. Homeowners/property managers, contractors, and administrators all have separate logins and permissions; Homeowners/property managers can enter a job, then contractors/builders can enter a bid, finally a bid is chosen, and the job is archived.",
+      "Designed, developed, and maintained numerous full-featured websites for dozens of clients. Leveraged, HTML, CSS, and JavaScript to build beautiful, thoughtful, and accessible websites.",
     image: "./assets/under-construction.png",
   },
 ];
