@@ -65,7 +65,7 @@ export const aboutContent = {
   gitHub: "https://github.com/baldm0mma",
   linkedIn: "https://www.linkedin.com/in/jev-forsberg/",
   resume:
-    "https://drive.google.com/file/d/1BrA5L4kzf9m52y_0DiLJNglrA8EmA0ud/view?usp=sharing",
+    "https://drive.google.com/file/d/1ox5UQuebTj7A6fOtoezkQBsiK04SlLOz/view?usp=sharing",
   email: "mailto:jev.forsberg@gmail.com",
   image: "./assets/Profile-Photo.jpg",
   skills: [
@@ -75,8 +75,10 @@ export const aboutContent = {
     "RESTful/CRUD APIs/GraphQL",
     "PostgreSQL/Knex.js/SQL",
     "Elixir/Erlang/OTP",
+    "Python",
     "ElasticSearch",
     "Kubernetes",
+    "GCP",
   ],
 };
 
