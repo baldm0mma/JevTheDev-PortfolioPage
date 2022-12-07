@@ -65,7 +65,7 @@ export const aboutContent = {
   gitHub: "https://github.com/baldm0mma",
   linkedIn: "https://www.linkedin.com/in/jev-forsberg/",
   resume:
-    "https://drive.google.com/file/d/1ox5UQuebTj7A6fOtoezkQBsiK04SlLOz/view?usp=sharing",
+    "https://docs.google.com/document/d/1WDrzbRv81P2-SQPfn5ZAZcl9l5Fc_oocgzvm9Ct2p-4/edit?usp=sharing",
   email: "mailto:jev.forsberg@gmail.com",
   image: "./assets/Profile-Photo.jpg",
   skills: [
@@ -85,7 +85,7 @@ export const aboutContent = {
 export const fullTimeContent = [
   {
     companyName: "TurbineLabs",
-    jobTitle: "Software Engineer II",
+    jobTitle: "Senior Full Stack Software Engineer",
     dates: "December 2019 - Current",
     description:
       "Our goal at Turbine Labs is to take the static of the world's external information and transform it into actionable intelligence that is compact, rich, and useful. Our team has years of engineering experience building full-stack, enterprise-level, data-heavy, end-to-end analytics software that serves numerous fortune 500 companies and organizations. I love my team at TL, and have been fortunate enough to learn and refine a number of my technological skills; including TypeScript, React, and StyledComponents on the client-side, and Elixir, Kubernetes, GCP, Postgres, and ElasticSearch server-side.",
