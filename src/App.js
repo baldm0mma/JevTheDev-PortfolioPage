@@ -6,7 +6,7 @@ import { Contract } from "./containers/Contract/Contract";
 import { FullTime } from "./containers/FullTime/FullTime";
 import { NameBadge } from "./containers/NameBadge/NameBadge";
 import {
-  projectContent,
+  // projectContent,
   contractContent,
   fullTimeContent,
 } from "./allData/allData.js";
@@ -61,7 +61,7 @@ export const App = () => {
       <Fade left>
         <Contract content={contractContent[1]} />
       </Fade>
-      <Zoom>
+      {/* <Zoom>
         <h4 className="about-title">Personal Projects</h4>
       </Zoom>
       <img
@@ -111,7 +111,7 @@ export const App = () => {
       />
       <Fade left>
         <Content content={projectContent[5]} />
-      </Fade>
+      </Fade> */}
       <Fade top>
         <Contact />
       </Fade>

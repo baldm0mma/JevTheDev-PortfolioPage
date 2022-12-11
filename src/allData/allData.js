@@ -69,16 +69,14 @@ export const aboutContent = {
   email: "mailto:jev.forsberg@gmail.com",
   image: "./assets/Profile-Photo.jpg",
   skills: [
-    "JavaScript/TypeScript",
+    "JavaScript/TypeScript/Node.js",
+    "Elixir/Functional Programming",
+    "Python/PyTorch/Pandas",
     "React.js/Vue.js/React Native",
-    "Node.js/Express.js",
-    "RESTful/CRUD APIs/GraphQL",
-    "PostgreSQL/Knex.js/SQL",
-    "Elixir/Erlang/OTP",
-    "Python",
-    "ElasticSearch",
-    "Kubernetes",
-    "GCP",
+    "RESTful/GraphQL APIs",
+    "Relational/NoSQL/MongoDB/ElasticSearch Databases",
+    "Docker/Kubernetes",
+    "GCP/AWS",
   ],
 };
 
@@ -88,7 +86,7 @@ export const fullTimeContent = [
     jobTitle: "Senior Full Stack Software Engineer",
     dates: "December 2019 - Current",
     description:
-      "Our goal at Turbine Labs is to take the static of the world's external information and transform it into actionable intelligence that is compact, rich, and useful. Our team has years of engineering experience building full-stack, enterprise-level, data-heavy, end-to-end analytics software that serves numerous fortune 500 companies and organizations. I love my team at TL, and have been fortunate enough to learn and refine a number of my technological skills; including TypeScript, React, and StyledComponents on the client-side, and Elixir, Kubernetes, GCP, Postgres, and ElasticSearch server-side.",
+      "As a Senior Software Engineer, I am responsible for not only writing readable, performant, and scalable code in Python/Elixir for processing massive amounts of data, extracting insights, and calculating important analytics, but also for leading the FE team (TypeScript/React/Apollo), mentoring Mid and Junior developers - both in their software craft but also their career goals, as well as making architectural decisions about the direction of the entire FE.",
     image: "./assets/TurbineLabs_JetBeaker_RGB_Outline.png",
   },
 ];
@@ -97,17 +95,17 @@ export const contractContent = [
   {
     companyName: "SchoolSAFE Communications",
     jobTitle: "Software Engineer",
-    dates: "May 2019 - December 2019",
+    dates: "February 2019 - December 2019",
     description:
-      "Reengineered an obsolete code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end systems and IoT devices. Featured Bcrypt, JWT, and Secure Cookies for authentication and sessioning.",
+      "Reengineered an obsolete code base for Colorado's public school's to have direct communication with emergency services in the event of an emergency. Our team rebuilt a MySQL database with Node.js and PostgreSQL, redesigned a Flash and PHP front end with React.js and Redux, and established communication between front end systems and IoT devices. Featured Bcrypt, JWT, and Secure Cookies for authentication and session management.",
     image: "./assets/SchoolSAFE.png",
   },
   {
-    companyName: "Contract Web Developer",
-    jobTitle: "Web Developer",
-    dates: "September 2018 - June 2019",
+    companyName: "Blank Slate Solutions",
+    jobTitle: "Contract Web Developer",
+    dates: "January 2018 - February 2019",
     description:
       "Designed, developed, and maintained numerous full-featured websites for dozens of clients. Leveraged, HTML, CSS, and JavaScript to build beautiful, thoughtful, and accessible websites.",
-    image: "./assets/under-construction.png",
+    image: "./assets/web_designer.png",
   },
 ];
