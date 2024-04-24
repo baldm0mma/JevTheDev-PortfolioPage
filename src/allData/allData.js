@@ -82,11 +82,19 @@ export const aboutContent = {
 
 export const fullTimeContent = [
   {
+    companyName: "Grafana Labs",
+    jobTitle: "Senior Software Engineer",
+    dates: "December 2022 - Current",
+    description:
+      "As a Senior Software Engineer at Grafana Labs, I am at the forefront of shaping the future of observability and data visualization worldwide. My work on high-performance, captivating visualizations empowers users to explore and derive meaningful insights from their data in significant and meaningful ways. By actively engaging in this critical open-source and democratic community-focused work, I help drive the development of cutting-edge visualization features, set new standards in the industry, and make a lasting impact on how people interact with and understand data.",
+    image: "./assets/grafana-logo.png",
+  },
+  {
     companyName: "TurbineLabs",
     jobTitle: "Senior Full Stack Software Engineer",
-    dates: "December 2019 - Current",
+    dates: "December 2019 - December 2022",
     description:
-      "As a Senior Software Engineer, I am responsible for not only writing readable, performant, and scalable code in Python/Elixir for processing massive amounts of data, extracting insights, and calculating important analytics, but also for leading the FE team (TypeScript/React/Apollo), mentoring Mid and Junior developers - both in their software craft but also their career goals, as well as making architectural decisions about the direction of the entire FE.",
+      "As a Senior Software Engineer at Turbine Labs, I was responsible for writing readable, performant, and scalable code in Python, Elixir, and TypeScript. I built flexible, effective, and robust ingestion pipelines which not only processed massive amounts of data, but also extracted important analytics and insights with advanced machine learning models. I also was tasked with leading the FE team (TypeScript/React/Apollo) by both mentoring Mid and Junior developers - in not only their software craft, but also their career goals - as well as making architectural decisions about the direction of the entire FE.",
     image: "./assets/TurbineLabs_JetBeaker_RGB_Outline.png",
   },
 ];
