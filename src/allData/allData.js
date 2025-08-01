@@ -61,7 +61,7 @@ export const aboutContent = {
   name: "Jev Forsberg",
   title: "Software Engineer || Educator || Civic Innovator/Advocate",
   description:
-    "I was a civic advocate, nonprofit manager, and pastor for almost a decade, and I absolutely loved the mentorship, community building, teaching, service, team-leading, public speaking, and civil-rights work I did. In 2018, I found another interest that I've become incredibly passionate about: technology; and specifically software engineering. No matter your background, context, region, language, race, religion, ability, gender expression, or any other category we use to label one another, there's a place for you in the tech community, and that's one of the many things I love about it!",
+    "I'm currently a Senior Software Engineer at Grafana Labs, with a unique blend of civic leadership and technical expertise, spanning full-stack development and DevOps automation. I transitioned from a decade of non-profit leadership and civil rights advocacy to become a passionate technologist at Grafana Labs, where I currently architect robust CI/CD pipelines and cloud infrastructure using GitHub Actions, Drone, and Terraform. I am also deeply proficient in building modern frontends with React, TypeScript, and GraphQL, while also highly skilled at crafting scalable backends in Elixir, Python, and Go. I bring both comprehensive technical skills and proven community-building experience to foster inclusive, high-performing engineering teams while delivering end-to-end solutions that drive organizational impact.",
   gitHub: "https://github.com/baldm0mma",
   linkedIn: "https://www.linkedin.com/in/jev-forsberg/",
   resume:
@@ -86,7 +86,7 @@ export const fullTimeContent = [
     jobTitle: "Senior Software Engineer",
     dates: "December 2022 - Current",
     description:
-      "As a Senior Software Engineer at Grafana Labs, I am at the forefront of shaping the future of observability and data visualization worldwide. My work on high-performance, captivating visualizations empowers users to explore and derive meaningful insights from their data in significant and meaningful ways. By actively engaging in this critical open-source and democratic community-focused work, I help drive the development of cutting-edge visualization features, set new standards in the industry, and make a lasting impact on how people interact with and understand data.",
+      "As a Senior Software Engineer at Grafana Labs, I am at the forefront of shaping the future of observability and data visualization worldwide. My work spans from high-performance, captivating visualizations that empower users to explore and derive meaningful insights from their data, to architecting robust CI/CD pipelines and backend infrastructure that ensures these experiences reach millions of users reliably. I build and optimize on-premises release pipelines using GitHub Actions, Drone, and Terraform, while leveraging my full-stack expertise in Python, Go, and Elixir to create scalable backend systems. By actively engaging in this critical open-source and democratic community-focused work, I help drive the development of cutting-edge visualization features, set new infrastructure standards in the industry, and make a lasting impact on how people interact with and understand data at scale.",
     image: "./assets/grafana-logo.png",
   },
   {
