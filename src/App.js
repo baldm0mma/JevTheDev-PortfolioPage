@@ -51,6 +51,14 @@ export const App = () => {
         alt="Down Arrow"
       />
       <Fade right>
+        <FullTime content={fullTimeContent[1]} />
+      </Fade>
+      <img
+        className="down-arrow"
+        src="./assets/downArrow.png"
+        alt="Down Arrow"
+      />
+      <Fade left>
         <Contract content={contractContent[0]} />
       </Fade>
       <img

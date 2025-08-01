@@ -10,28 +10,37 @@
   background-size: 2000px;
   border-radius: 30px;
   display: flex;
+  align-items: stretch;
   margin-bottom: 120px;
   text-shadow: white 8px 8px 25px;
   width: auto;
+  min-height: 200px;
 }
 
 .contract-info-container {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  width: 350px;
+  flex: 2;
+  min-width: 300px;
+  max-width: 600px;
 }
 
 .contract-image-container {
   align-items: center;
   display: flex;
   justify-content: center;
+  flex: 1;
+  min-width: 200px;
 }
 
 .contract-image {
-  max-height: 400px;
-  max-width: 400px;
-  padding: 30px;
+  max-height: 300px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  object-fit: contain;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -41,41 +50,53 @@
 
   .contract-image {
     align-self: center;
-    max-width: 475px;
+    max-width: 400px;
+    max-height: 300px;
   }
 
   .contract-info-container {
     align-self: center;
-    width: 475px;
+    max-width: 475px;
+    min-width: 300px;
+  }
+
+  .contract-image-container {
+    flex: none;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .contract-container {
-    width: 450px;
+    max-width: 450px;
+    margin: 0 auto 120px auto;
   }
 
   .contract-image {
-    max-width: 350px;
+    max-width: 300px;
+    max-height: 250px;
   }
 
   .contract-info-container {
     align-self: center;
-    width: 350px;
+    max-width: 350px;
+    min-width: 280px;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .contract-container {
-    width: 350px;
+    max-width: 350px;
+    margin: 0 auto 120px auto;
   }
 
   .contract-image {
-    max-width: 300px;
+    max-width: 250px;
+    max-height: 200px;
   }
 
   .contract-info-container {
     align-self: center;
-    width: 300px;
+    max-width: 300px;
+    min-width: 250px;
   }
 }
