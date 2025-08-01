@@ -1,4 +1,5 @@
 import React from "react";
+import "./Icon.css";
 
 export const Icon = ({ source }) => {
   return (
