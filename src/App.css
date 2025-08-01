@@ -7,6 +7,7 @@
 body {
   height: 100%;
   font-family: "Nanum Myeongjo", serif;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
 }
 
 main {
@@ -15,6 +16,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 0 10px; /* Add padding for mobile */
 }
 
 .down-arrow {
@@ -26,4 +28,53 @@ main {
 .about-title {
   margin-bottom: 5px;
   font-size: 30px;
+}
+
+/* Mobile improvements */
+@media only screen and (max-width: 768px) {
+  main {
+    padding: 0 15px;
+  }
+  
+  .down-arrow {
+    width: 25px;
+    margin-bottom: 150px;
+  }
+  
+  .about-title {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    padding: 0 10px;
+  }
+  
+  .down-arrow {
+    width: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .about-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  main {
+    padding: 0 5px;
+  }
+  
+  .down-arrow {
+    width: 18px;
+    margin-bottom: 80px;
+  }
+  
+  .about-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }

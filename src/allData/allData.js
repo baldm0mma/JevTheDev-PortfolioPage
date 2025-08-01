@@ -111,7 +111,7 @@ export const contractContent = [
   {
     companyName: "Blank Slate Solutions",
     jobTitle: "Contract Web Developer",
-    dates: "January 2018 - February 2019",
+    dates: "September 2017 - February 2019",
     description:
       "Designed, developed, and maintained numerous full-featured websites for dozens of clients. Leveraged, HTML, CSS, and JavaScript to build beautiful, thoughtful, and accessible websites.",
     image: "./assets/web_designer.png",
