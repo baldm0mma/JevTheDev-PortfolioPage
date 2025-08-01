@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { About } from "./containers/About/About";
 import { Contact } from "./containers/Contact/Contact";
-import { Content } from "./containers/Content/Content";
 import { Contract } from "./containers/Contract/Contract";
 import { FullTime } from "./containers/FullTime/FullTime";
 import { NameBadge } from "./containers/NameBadge/NameBadge";
