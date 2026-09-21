@@ -4,7 +4,7 @@ export const profile = {
   gitHub: 'https://github.com/baldm0mma',
   linkedIn: 'https://www.linkedin.com/in/jev-forsberg/',
   resume:
-    'https://docs.google.com/document/d/1WDrzbRv81P2-SQPfn5ZAZcl9l5Fc_oocgzvm9Ct2p-4/edit?usp=sharing',
+    'https://docs.google.com/document/d/1MoI79FicxpSulyBmHHVQ5TZyXoh8P6Sb_DUNDslSLvs/edit?usp=sharing',
   email: 'mailto:jev.forsberg@gmail.com',
 };
 
