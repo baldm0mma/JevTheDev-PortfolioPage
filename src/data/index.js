@@ -58,7 +58,7 @@ export const experience = [
     company: 'Blank Slate Solutions',
     url: null,
     role: 'Contract Web Developer',
-    dates: 'Sep 2017 – Feb 2019',
+    dates: 'Mar 2017 – Feb 2019',
     description:
       'Designed and built full-featured websites for dozens of clients using HTML, CSS, and JavaScript.',
   },
