@@ -70,7 +70,7 @@ export default function Hero() {
 
           <motion.div variants={item} className="space-y-1.5">
             <p className="text-xl sm:text-2xl font-medium text-primary">
-              Senior Software Engineer{' '}
+              Engineering Manager{' '}
               <span className="text-accent">@ Grafana Labs</span>
             </p>
             <p className="text-muted text-base sm:text-lg">
