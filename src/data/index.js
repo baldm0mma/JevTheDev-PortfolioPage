@@ -9,11 +9,28 @@ export const profile = {
 };
 
 export const skills = [
-  { category: 'Languages', items: ['TypeScript', 'JavaScript', 'Go', 'Elixir', 'Python'] },
-  { category: 'Frontend', items: ['React', 'Vue.js', 'React Native'] },
-  { category: 'APIs & Backend', items: ['Node.js', 'GraphQL', 'RESTful APIs'] },
-  { category: 'Infrastructure', items: ['Docker', 'Kubernetes', 'GCP', 'AWS', 'Terraform', 'CI/CD'] },
-  { category: 'Data', items: ['PostgreSQL', 'MongoDB', 'ElasticSearch'] },
+  {
+    category: 'Leadership',
+    items: [
+      'Team growth',
+      'Career development',
+      'Roadmap & delivery',
+      'Mentorship',
+      'Hiring',
+      'Open source stewardship',
+    ],
+  },
+  {
+    category: 'Observability',
+    items: ['OpenTelemetry', 'Prometheus', 'Loki', 'Pyroscope', 'Grafana Alloy'],
+  },
+  { category: 'Languages', items: ['Go', 'TypeScript', 'JavaScript', 'Python', 'Elixir'] },
+  {
+    category: 'Infrastructure',
+    items: ['Kubernetes', 'Docker', 'GCP', 'Terraform', 'CI/CD', 'GitHub Actions'],
+  },
+  { category: 'Frontend', items: ['React', 'GraphQL', 'Apollo'] },
+  { category: 'Data', items: ['PostgreSQL', 'ElasticSearch'] },
 ];
 
 export const experience = [

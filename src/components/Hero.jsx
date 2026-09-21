@@ -74,7 +74,7 @@ export default function Hero() {
               <span className="text-accent">@ Grafana Labs</span>
             </p>
             <p className="text-muted text-base sm:text-lg">
-              Builder, educator, civic advocate.
+              Builder, leader, educator, civic advocate.
             </p>
           </motion.div>
 
